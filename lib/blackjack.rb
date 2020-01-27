@@ -28,7 +28,7 @@ def initial_round
   round_total
 end
 
-def hit?(num)
+def hit?(card_total)
  prompt_user
  user_input = get_user_input
  round_total
@@ -44,6 +44,8 @@ end
 
 def invalid_command
   puts "Please enter a valid command"
+  prompt_user
+  get_user_input
 end
 
 #####################################################
