@@ -31,7 +31,7 @@ end
 def hit?(num)
  prompt_user
  user_input = get_user_input
- num
+ round_total
  if user_input == "h"
    round_total += deal_card
    elsif user_input == "s"
